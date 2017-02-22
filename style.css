@@ -1,0 +1,13 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: white;
+  font: small Arial, sans-serif;
+}
+
+.navbar, li{
+  display: inline
+}
