@@ -8,6 +8,39 @@ body{
   font: small Arial, sans-serif;
 }
 
-.navbar, li{
+li{
   display: inline
 }
+
+.h-navbar{
+  float: right;
+  padding-right: 5px; padding-top: 10px;
+}
+
+#center{
+  position: relative;
+  top: 15em;
+}
+
+#googleimg{
+  display: block;
+  margin: auto;
+}
+
+form{
+  text-align: center;
+}
+
+ div #search{
+   position: relative;
+   padding-left: 50%; padding-top: 25%;
+ }
+
+#footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+#rightfoot{float: right;}
+#leftfoot{float: left;}
