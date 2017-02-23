@@ -5,7 +5,8 @@
 
 body{
   background-color: white;
-  font: small Arial, sans-serif;
+  font: Roboto, Arial:
+  font-weight: 100;
 }
 
 li{
@@ -38,9 +39,21 @@ form{
 
 #footer{
   width: 100%;
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  bottom: 0px;
+  background-color: #dddddd;
+  padding: 10px;
+  
 }
 
-#rightfoot{float: right;}
-#leftfoot{float: left;}
+#rightfoot{float: right; margin-right: 20px;}
+#leftfoot{float: left; margin-left: 20px;}
+
+.felements{
+  padding: 0px 20px 0px 20px;
+}
+
+a:link{
+  text-decoration: none
+  color: black;
+}
