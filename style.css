@@ -25,7 +25,7 @@ li{
 }
 
 #googleimg{
-  display: relative;
+  display: block;
   margin-left: -136px;
   padding-left: 50%;
 }
@@ -79,4 +79,13 @@ a:hover{
   background-color: #3884ff;
   padding: 6px 9px 6px 9px;
   border: solid 1px #3884ff; border-radius: 4px;
+}
+
+input {
+    width: 350px;
+    display: relative;
+    margin-top: 20px; margin-bottom: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    
 }
