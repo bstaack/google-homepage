@@ -52,7 +52,7 @@ form{
 #leftfoot{float: left; margin-left: 20px;}
 
 .felements{
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 20px; font-size: .75em;
 }
 
 a:link, a:visited{
@@ -81,7 +81,19 @@ a:hover{
   border: solid 1px #3884ff; border-radius: 4px;
 }
 
-input {
+.searchbuttons{
+  color: #6b6b6b;
+  background-color: #dddddd;
+  padding: 10px 15px 10px 15px;
+  border: solid 1px #dddddd; border-radius: 5px;
+}
+
+#searchdiv{
+  position: relative;
+  left: 50%; margin-left: -220px; margin-top: 15px;
+}
+
+#searchbox {
     width: 350px;
     display: relative;
     margin-top: 20px; margin-bottom: 10px;
